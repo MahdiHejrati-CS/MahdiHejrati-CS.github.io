@@ -1,56 +1,118 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Control, Robotics, and Geometric Methods"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+# Mahdi Hejrati
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am a control engineer and researcher working on nonlinear, geometric, adaptive, and model-based control of robotic systems. My work focuses on developing theoretically grounded control methods and validating them on real robotic and heavy-duty manipulation systems.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My background combines mathematical control theory, robotic dynamics, real-time implementation, and experimental validation. I am especially interested in control methods that respect the structure of robotic systems: geometry, passivity, modular interconnections, uncertainty, and physical consistency.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<a class="mh-button" href="/publications/">Publications</a>
+<a class="mh-button" href="/portfolio/">Projects</a>
+<a class="mh-button" href="/cv/">CV</a>
+<a class="mh-button" href="https://scholar.google.com/citations?user=6a8AjsgAAAAJ&hl=en">Google Scholar</a>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## Research profile
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<div class="research-grid">
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<div class="research-card">
+<h3>Geometric control</h3>
+<p>Control design on nonlinear configuration spaces, including rigid-body motion, Lie groups, and structure-aware robot dynamics.</p>
+</div>
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<div class="research-card">
+<h3>Adaptive and robust control</h3>
+<p>Control methods for uncertain robotic systems, with emphasis on stability, robustness, and experimental performance.</p>
+</div>
 
-**Markdown generator**
+<div class="research-card">
+<h3>Heavy-duty robotics</h3>
+<p>Modeling, control, and real-time implementation for large-scale manipulators and field robotic systems.</p>
+</div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+<div class="research-card">
+<h3>Teleoperation</h3>
+<p>Bilateral teleoperation, haptic interaction, human skill transfer, transparency, and stability under real-world constraints.</p>
+</div>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<div class="research-card">
+<h3>Modular robot control</h3>
+<p>Control architectures for interconnected robotic systems, where local module behavior produces coherent global motion.</p>
+</div>
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+<div class="research-card">
+<h3>Learning-enhanced control</h3>
+<p>Integration of model-based control with learning methods while preserving physical and geometric structure.</p>
+</div>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+</div>
+
+## Selected research directions
+
+### Structure-preserving control of robotic systems
+
+A major part of my work is concerned with designing controllers that respect the mathematical and physical structure of robotic systems. This includes geometric control, passivity-based reasoning, modular interconnections, and adaptive control laws that remain consistent with robot dynamics.
+
+### Control of heavy-duty manipulators
+
+I have worked on control methods for large-scale robotic manipulators, including heavy-duty hydraulic systems. This work connects nonlinear control theory with real implementation challenges such as sensing, actuation limits, uncertainty, real-time control, and experimental validation.
+
+### Teleoperation and human–robot interaction
+
+My doctoral research focused on robust and immersive bilateral teleoperation, where the central challenges include stability, transparency, delay robustness, haptic interaction, and transferring human skill to remote robotic systems.
+
+### Modular and learning-based robot control
+
+My current research interests include modular and morphology-aware control, where local joint or module-level behavior can produce meaningful end-effector motion without relying only on fixed inverse-kinematic structures. I am interested in combining geometric control, modularity, and learning for adaptable robotic systems.
+
+## Timeline
+
+<div class="timeline">
+
+<div class="timeline-item">
+<strong>2026 – present</strong><br>
+Postdoctoral researcher at Tampere University, working on advanced control and learning-enhanced methods for heavy-duty robotic systems.
+</div>
+
+<div class="timeline-item">
+<strong>2022 – 2025</strong><br>
+PhD in Automation Engineering, Tampere University. Dissertation on systematic and robust control frameworks for immersive bilateral teleoperation and heavy-duty robotic systems.
+</div>
+
+<div class="timeline-item">
+<strong>2021</strong><br>
+MSc in Mechanical Engineering, Sharif University of Technology, with focus on modeling and control of robotic and flexible mechanical systems.
+</div>
+
+<div class="timeline-item">
+<strong>2018</strong><br>
+BSc in Mechanical Engineering, University of Bonab.
+</div>
+
+</div>
+
+## How to read this website
+
+My work is organized in three levels:
+
+1. **Research directions** explain the main ideas and long-term themes.
+2. **Projects** describe the robotic systems, platforms, and implementations.
+3. **Publications** provide the formal paper-by-paper record.
+
+This structure is better than presenting everything only as a list of papers, because it shows both the theoretical direction and the engineering systems behind the work.
+
+## Useful links
+
+- [Publications](/publications/)
+- [Projects](/portfolio/)
+- [CV](/cv/)
+- [Google Scholar](https://scholar.google.com/citations?user=6a8AjsgAAAAJ&hl=en)
+- [ORCID](https://orcid.org/0000-0002-8017-4355)
+- [Tampere University research profile](https://researchportal.tuni.fi/en/persons/mahdi-hejrati)
