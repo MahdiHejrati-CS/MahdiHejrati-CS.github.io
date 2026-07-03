@@ -24,13 +24,13 @@ repository               : "MahdiHejrati-CS/MahdiHejrati-CS.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Tampere"
-  employer         : "Tampere University"
-  uri              : # URL
-  email            : "mahdi.hejrati@tuni.fi" 
+name             : "Mahdi Hejrati"
+pronouns         :
+bio              : "Postdoctoral researcher in robotics, nonlinear control, geometric control, and adaptive control."
+location         : "Tampere, Finland"
+employer         : "Tampere University"
+uri              : " https://researchportal.tuni.fi/en/persons/mahdi-hejrati"
+email            : "mahdi.hejrati@tuni.fi"
 
   # Academic websites
   academia         : # URL
