@@ -13,7 +13,7 @@ title                    : "Mahdi Hejrati"
 title_separator          : "-"
 name                     : &name "Mahdi Hejrati"
 description              : &description "Postdoctoral researcher in robotics, nonlinear control, geometric control, adaptive control, and heavy-duty robotic systems."   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://mahdihejrati-cs.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://mahdihejrati-cs.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MahdiHejrati-CS/MahdiHejrati-CS.github.io"
@@ -42,7 +42,7 @@ email            : "mahdi.hejrati@tuni.fi"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
-  researchgate     : https://www.researchgate.net/
+  researchgate     : "https://www.researchgate.net/"
   scopus           : # URL
   zotero           : # URL
 
@@ -66,7 +66,7 @@ email            : "mahdi.hejrati@tuni.fi"
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : www.linkedin.com/in/mahdihejratiprofile
+  linkedin         : "https://www.linkedin.com/in/mahdihejratiprofile"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
