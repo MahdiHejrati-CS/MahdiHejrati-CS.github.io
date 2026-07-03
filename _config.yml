@@ -23,7 +23,7 @@ repository               : "MahdiHejrati-CS/MahdiHejrati-CS.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.JPG"
   name             : "Mahdi Hejrati"
   pronouns         :
   bio              : "Postdoctoral researcher in robotics, nonlinear control, geometric control, and adaptive control."
